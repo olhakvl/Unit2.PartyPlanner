@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(198, 228, 216);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+#eventsDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partyCards{
+    border-radius: 3%;
+    width: 100%;
+    background-color: rgb(231, 189, 229);
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.deleteBtn{
+    background-color: rgb(77, 165, 205);
+    border-radius: 25%;
+    width: 100px;
+    height: 25px;
+    border: none;
+}

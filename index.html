@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Party Planner</h1>
-    <main>
-      <article id="event">
-        <h2>Event Details</h2>
-        <article id="eventDetails">
-            
-        </article>
-      </article>
-    </main>
+    <section>
+      <form id="newEventForm">
+        <label for="name">Event Name</label>
+        <input type="text" id="name" name="name" /></br>
 
+        <label for="description">Event Description</label>
+        <input type="text" id="description" name="description" /></br>
+
+        <label for="date">Event Date</label>
+        <input type="date" id="date" name="date" /></br>
+
+        <label for="location">Event Location</label>
+        <input type="text" id="location" name="location" /></br>
+
+        <input type="submit" value="Add Event" id="submitButton">
+
+      </form>
+    </section>
+
+    <main>
+      <h2>Event Details</h2>
+      <div id="eventsDetails">
+        
+      </div>
+    </main>
     
     <script src="./index.js"></script>
 </body>
